@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', serif !important;
+}
+
+
+.table-fixhead {
+    overflow: auto;
+    height: 100px;
+}
+
+.table-fixhead thead th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #ffff;
+}
+
+/* Just common table stuff. Really. */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px 16px;
+}
+
+th {
+    background: #eee;
+}

@@ -1,0 +1,1097 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href='https://css.gg/search.css' rel='stylesheet'>
+    <link href="han.css" rel="stylesheet">
+    <title>Han</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light ps-5">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Card drop rate</a>
+                    <a class="nav-link disabled" aria-current="page" href="#">Monster info</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row pt-5">
+        <div class="container-fluid">
+            <div class="col-12 px-5">
+                <div class="px-5 pt-5">
+                    <div class="ps-5 pb-5">
+                        <h2>Card drop rate</h1>
+                    </div>
+
+                    <div class="col-2 ms-auto pe-5">
+                        <form action="" class="">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text border-0 bg-transparent" id="search-addon">
+                                    <i class="gg-search"></i>
+                                </span>
+                                <input type="text" class="form-control rounded" onkeyup=search() placeholder="Search for cards"
+                                    aria-label="Search" aria-describedby="search-addon">
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="px-5">
+                        <table class="table table-hover table-fixhead ">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Monster Name</th>
+                                    <th scope="col">Probability in 5 mil.</th>
+                                    <th scope="col">Drop rate (%)</th>
+                                    <th scope="col">Estimated number to kill</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>182</td>
+                                    <td>0.00364</td>
+                                    <td>27,473</td>
+                                </tr>
+                                <tr>
+                                    <td>Fabre Card</td>
+                                    <td>153</td>
+                                    <td>0.00306</td>
+                                    <td>32,680</td>
+                                </tr>
+                                <tr>
+                                    <td>Pupa Card</td>
+                                    <td>153</td>
+                                    <td>0.00306</td>
+                                    <td>32,680</td>
+                                </tr>
+                                <tr>
+                                    <td>Lunatic Card</td>
+                                    <td>153</td>
+                                    <td>0.00306</td>
+                                    <td>32,680</td>
+                                </tr>
+                                <tr>
+                                    <td>Thief Bug Egg Card</td>
+                                    <td>153</td>
+                                    <td>0.00306</td>
+                                    <td>32,680</td>
+                                </tr>
+                                <tr>
+                                    <td>Chonchon Card</td>
+                                    <td>153</td>
+                                    <td>0.00306</td>
+                                    <td>32,680</td>
+                                </tr>
+                                <tr>
+                                    <td>Willow Card</td>
+                                    <td>153</td>
+                                    <td>0.00306</td>
+                                    <td>32,680</td>
+                                </tr>
+                                <tr>
+                                    <td>Roda Frog Card</td>
+                                    <td>153</td>
+                                    <td>0.00306</td>
+                                    <td>32,680</td>
+                                </tr>
+                                <tr>
+                                    <td>Thief Bug Card</td>
+                                    <td>153</td>
+                                    <td>0.00306</td>
+                                    <td>32,680</td>
+                                </tr>
+                                <tr>
+                                    <td>Grasshopper Card</td>
+                                    <td>153</td>
+                                    <td>0.00306</td>
+                                    <td>32,680</td>
+                                </tr>
+                                <tr>
+                                    <td>Picky Card</td>
+                                    <td>153</td>
+                                    <td>0.00306</td>
+                                    <td>32,680</td>
+                                </tr>
+                                <tr>
+                                    <td>Drops Card</td>
+                                    <td>153</td>
+                                    <td>0.00306</td>
+                                    <td>32,680</td>
+                                </tr>
+                                <tr>
+                                    <td>Pecopeco Egg Card</td>
+                                    <td>153</td>
+                                    <td>0.00306</td>
+                                    <td>32,680</td>
+                                </tr>
+                                <tr>
+                                    <td>Condor Card</td>
+                                    <td>153</td>
+                                    <td>0.00306</td>
+                                    <td>32,680</td>
+                                </tr>
+                                <tr>
+                                    <td>Savage Bebe Card</td>
+                                    <td>153</td>
+                                    <td>0.00306</td>
+                                    <td>32,680</td>
+                                </tr>
+                                <tr>
+                                    <td>Baby Desert Wolf Card</td>
+                                    <td>153</td>
+                                    <td>0.00306</td>
+                                    <td>32,680</td>
+                                </tr>
+                                <tr>
+                                    <td>Pecopeco Card</td>
+                                    <td>153</td>
+                                    <td>0.00306</td>
+                                    <td>32,680</td>
+                                </tr>
+                                <tr>
+                                    <td>Muka Card</td>
+                                    <td>153</td>
+                                    <td>0.00306</td>
+                                    <td>32,680</td>
+                                </tr>
+                                <tr>
+                                    <td>Metaller Card</td>
+                                    <td>136</td>
+                                    <td>0.00272</td>
+                                    <td>36,765</td>
+                                </tr>
+                                <tr>
+                                    <td>Anacondaq Card</td>
+                                    <td>129</td>
+                                    <td>0.00258</td>
+                                    <td>38,760</td>
+                                </tr>
+                                <tr>
+                                    <td>Scorpion Card</td>
+                                    <td>125</td>
+                                    <td>0.00250</td>
+                                    <td>40,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Golem Card</td>
+                                    <td>122</td>
+                                    <td>0.00244</td>
+                                    <td>40,984</td>
+                                </tr>
+                                <tr>
+                                    <td>Hode Card</td>
+                                    <td>119</td>
+                                    <td>0.00238</td>
+                                    <td>42,017</td>
+                                </tr>
+                                <tr>
+                                    <td>Desert Wolf Card</td>
+                                    <td>117</td>
+                                    <td>0.00234</td>
+                                    <td>42,735</td>
+                                </tr>
+                                <tr>
+                                    <td>Frilldora Card</td>
+                                    <td>114</td>
+                                    <td>0.00228</td>
+                                    <td>43,860</td>
+                                </tr>
+                                <tr>
+                                    <td>Hornet Card</td>
+                                    <td>114</td>
+                                    <td>0.00228</td>
+                                    <td>43,860</td>
+                                </tr>
+                                <tr>
+                                    <td>Ambernite Card</td>
+                                    <td>112</td>
+                                    <td>0.00224</td>
+                                    <td>44,643</td>
+                                </tr>
+                                <tr>
+                                    <td>Wormtail Card</td>
+                                    <td>108</td>
+                                    <td>0.00216</td>
+                                    <td>46,296</td>
+                                </tr>
+                                <tr>
+                                    <td>Dustiness Card</td>
+                                    <td>105</td>
+                                    <td>0.00210</td>
+                                    <td>47,619</td>
+                                </tr>
+                                <tr>
+                                    <td>Horn Card</td>
+                                    <td>89</td>
+                                    <td>0.00178</td>
+                                    <td>56,180</td>
+                                </tr>
+                                <tr>
+                                    <td>Side Winder Card</td>
+                                    <td>81</td>
+                                    <td>0.00162</td>
+                                    <td>61,728</td>
+                                </tr>
+                                <tr>
+                                    <td>Ground Petite Card</td>
+                                    <td>80</td>
+                                    <td>0.00160</td>
+                                    <td>62,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Sky Petite Card</td>
+                                    <td>80</td>
+                                    <td>0.00160</td>
+                                    <td>62,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Elder Willow Card</td>
+                                    <td>80</td>
+                                    <td>0.00160</td>
+                                    <td>62,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Eggyra Card</td>
+                                    <td>79</td>
+                                    <td>0.00158</td>
+                                    <td>63,291</td>
+                                </tr>
+                                <tr>
+                                    <td>Bigfoot Card</td>
+                                    <td>79</td>
+                                    <td>0.00158</td>
+                                    <td>63,291</td>
+                                </tr>
+                                <tr>
+                                    <td>Savage Card</td>
+                                    <td>78</td>
+                                    <td>0.00156</td>
+                                    <td>64,103</td>
+                                </tr>
+                                <tr>
+                                    <td>Magnolia Card</td>
+                                    <td>77</td>
+                                    <td>0.00154</td>
+                                    <td>64,935</td>
+                                </tr>
+                                <tr>
+                                    <td>Dokebi Card</td>
+                                    <td>77</td>
+                                    <td>0.00154</td>
+                                    <td>64,935</td>
+                                </tr>
+                                <tr>
+                                    <td>Horong Card</td>
+                                    <td>73</td>
+                                    <td>0.00146</td>
+                                    <td>68,493</td>
+                                </tr>
+                                <tr>
+                                    <td>Greatest General Card</td>
+                                    <td>72</td>
+                                    <td>0.00144</td>
+                                    <td>69,444</td>
+                                </tr>
+                                <tr>
+                                    <td>Familiar Card</td>
+                                    <td>71</td>
+                                    <td>0.00142</td>
+                                    <td>70,423</td>
+                                </tr>
+                                <tr>
+                                    <td>Spore Card</td>
+                                    <td>71</td>
+                                    <td>0.00142</td>
+                                    <td>70,423</td>
+                                </tr>
+                                <tr>
+                                    <td>Plankton Card</td>
+                                    <td>71</td>
+                                    <td>0.00142</td>
+                                    <td>70,423</td>
+                                </tr>
+                                <tr>
+                                    <td>Tarou Card</td>
+                                    <td>70</td>
+                                    <td>0.00140</td>
+                                    <td>71,429</td>
+                                </tr>
+                                <tr>
+                                    <td>Female Thief Bug Card</td>
+                                    <td>70</td>
+                                    <td>0.00140</td>
+                                    <td>71,429</td>
+                                </tr>
+                                <tr>
+                                    <td>Male Thief Bug Card</td>
+                                    <td>70</td>
+                                    <td>0.00140</td>
+                                    <td>71,429</td>
+                                </tr>
+                                <tr>
+                                    <td>Wolf Card</td>
+                                    <td>68</td>
+                                    <td>0.00136</td>
+                                    <td>73,529</td>
+                                </tr>
+                                <tr>
+                                    <td>Mandragora Card</td>
+                                    <td>66</td>
+                                    <td>0.00132</td>
+                                    <td>75,758</td>
+                                </tr>
+                                <tr>
+                                    <td>Poporing Card</td>
+                                    <td>66</td>
+                                    <td>0.00132</td>
+                                    <td>75,758</td>
+                                </tr>
+                                <tr>
+                                    <td>Snake Card</td>
+                                    <td>65</td>
+                                    <td>0.00130</td>
+                                    <td>76,923</td>
+                                </tr>
+                                <tr>
+                                    <td>Creamy Card</td>
+                                    <td>64</td>
+                                    <td>0.00128</td>
+                                    <td>78,125</td>
+                                </tr>
+                                <tr>
+                                    <td>Stainer Card</td>
+                                    <td>62</td>
+                                    <td>0.00124</td>
+                                    <td>80,645</td>
+                                </tr>
+                                <tr>
+                                    <td>Steel Chonchon Card</td>
+                                    <td>62</td>
+                                    <td>0.00124</td>
+                                    <td>80,645</td>
+                                </tr>
+                                <tr>
+                                    <td>Coco Card</td>
+                                    <td>62</td>
+                                    <td>0.00124</td>
+                                    <td>80,645</td>
+                                </tr>
+                                <tr>
+                                    <td>Smokie Card</td>
+                                    <td>59</td>
+                                    <td>0.00118</td>
+                                    <td>84,746</td>
+                                </tr>
+                                <tr>
+                                    <td>Caramel Card</td>
+                                    <td>57</td>
+                                    <td>0.00114</td>
+                                    <td>87,719</td>
+                                </tr>
+                                <tr>
+                                    <td>Yoyo Card</td>
+                                    <td>56</td>
+                                    <td>0.00112</td>
+                                    <td>89,286</td>
+                                </tr>
+                                <tr>
+                                    <td>Pirate Skeleton Card</td>
+                                    <td>55</td>
+                                    <td>0.00110</td>
+                                    <td>90,909</td>
+                                </tr>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>54</td>
+                                    <td>0.00108</td>
+                                    <td>92,593</td>
+                                </tr>
+                                <tr>
+                                    <td>Poison Spore Card</td>
+                                    <td>53</td>
+                                    <td>0.00106</td>
+                                    <td>94,340</td>
+                                </tr>
+                                <tr>
+                                    <td>Whisper Card</td>
+                                    <td>51</td>
+                                    <td>0.00102</td>
+                                    <td>98,039</td>
+                                </tr>
+                                <tr>
+                                    <td>Kukre Card</td>
+                                    <td>51</td>
+                                    <td>0.00102</td>
+                                    <td>98,039</td>
+                                </tr>
+                                <tr>
+                                    <td>Hydra Card</td>
+                                    <td>51</td>
+                                    <td>0.00102</td>
+                                    <td>98,039</td>
+                                </tr>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>51</td>
+                                    <td>0.00102</td>
+                                    <td>98,039</td>
+                                </tr>
+                                <tr>
+                                    <td>Vadon Card</td>
+                                    <td>50</td>
+                                    <td>0.00100</td>
+                                    <td>100,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Marina Card</td>
+                                    <td>49</td>
+                                    <td>0.00098</td>
+                                    <td>102,041</td>
+                                </tr>
+                                <tr>
+                                    <td>Cornutus Card</td>
+                                    <td>49</td>
+                                    <td>0.00098</td>
+                                    <td>102,041</td>
+                                </tr>
+                                <tr>
+                                    <td>Phen Card</td>
+                                    <td>48</td>
+                                    <td>0.00096</td>
+                                    <td>104,167</td>
+                                </tr>
+                                <tr>
+                                    <td>Marine Sphere Card</td>
+                                    <td>48</td>
+                                    <td>0.00096</td>
+                                    <td>104,167</td>
+                                </tr>
+                                <tr>
+                                    <td>Swordfish Card</td>
+                                    <td>47</td>
+                                    <td>0.00094</td>
+                                    <td>106,383</td>
+                                </tr>
+                                <tr>
+                                    <td>Obeaune Card</td>
+                                    <td>46</td>
+                                    <td>0.00092</td>
+                                    <td>108,696</td>
+                                </tr>
+                                <tr>
+                                    <td>Marse Card</td>
+                                    <td>46</td>
+                                    <td>0.00092</td>
+                                    <td>108,696</td>
+                                </tr>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>45</td>
+                                    <td>0.00090</td>
+                                    <td>111,111</td>
+                                </tr>
+                                <tr>
+                                    <td>Marc Card</td>
+                                    <td>45</td>
+                                    <td>0.00090</td>
+                                    <td>111,111</td>
+                                </tr>
+                                <tr>
+                                    <td>Deviace Card</td>
+                                    <td>45</td>
+                                    <td>0.00090</td>
+                                    <td>111,111</td>
+                                </tr>
+                                <tr>
+                                    <td>Andre Card</td>
+                                    <td>44</td>
+                                    <td>0.00088</td>
+                                    <td>113,636</td>
+                                </tr>
+                                <tr>
+                                    <td>Piere Card</td>
+                                    <td>44</td>
+                                    <td>0.00088</td>
+                                    <td>113,636</td>
+                                </tr>
+                                <tr>
+                                    <td>Deniro Card</td>
+                                    <td>44</td>
+                                    <td>0.00088</td>
+                                    <td>113,636</td>
+                                </tr>
+                                <tr>
+                                    <td>Vitata Card</td>
+                                    <td>43</td>
+                                    <td>0.00086</td>
+                                    <td>116,279</td>
+                                </tr>
+                                <tr>
+                                    <td>Drainliar Card</td>
+                                    <td>43</td>
+                                    <td>0.00086</td>
+                                    <td>116,279</td>
+                                </tr>
+                                <tr>
+                                    <td>Giearth Card</td>
+                                    <td>42</td>
+                                    <td>0.00084</td>
+                                    <td>119,048</td>
+                                </tr>
+                                <tr>
+                                    <td>Arclouze Card</td>
+                                    <td>41</td>
+                                    <td>0.00082</td>
+                                    <td>121,951</td>
+                                </tr>
+                                <tr>
+                                    <td>Dagger-wielding Skel Pirate Card</td>
+                                    <td>37</td>
+                                    <td>0.00074</td>
+                                    <td>135,135</td>
+                                </tr>
+                                <tr>
+                                    <td>Zombie Card</td>
+                                    <td>37</td>
+                                    <td>0.00074</td>
+                                    <td>135,135</td>
+                                </tr>
+                                <tr>
+                                    <td>Munak Card</td>
+                                    <td>36</td>
+                                    <td>0.00072</td>
+                                    <td>138,889</td>
+                                </tr>
+                                <tr>
+                                    <td>Bongun Card</td>
+                                    <td>35</td>
+                                    <td>0.00070</td>
+                                    <td>142,857</td>
+                                </tr>
+                                <tr>
+                                    <td>Sohee Card</td>
+                                    <td>35</td>
+                                    <td>0.00070</td>
+                                    <td>142,857</td>
+                                </tr>
+                                <tr>
+                                    <td>Nine Tail Card</td>
+                                    <td>34</td>
+                                    <td>0.00068</td>
+                                    <td>147,059</td>
+                                </tr>
+                                <tr>
+                                    <td>Martin Card</td>
+                                    <td>34</td>
+                                    <td>0.00068</td>
+                                    <td>147,059</td>
+                                </tr>
+                                <tr>
+                                    <td>Skeleton Worker Card</td>
+                                    <td>34</td>
+                                    <td>0.00068</td>
+                                    <td>147,059</td>
+                                </tr>
+                                <tr>
+                                    <td>Myst Card</td>
+                                    <td>34</td>
+                                    <td>0.00068</td>
+                                    <td>147,059</td>
+                                </tr>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>34</td>
+                                    <td>0.00068</td>
+                                    <td>147,059</td>
+                                </tr>
+                                <tr>
+                                    <td>Skeleton Card</td>
+                                    <td>33</td>
+                                    <td>0.00066</td>
+                                    <td>151,515</td>
+                                </tr>
+                                <tr>
+                                    <td>Archer Skeleton Card</td>
+                                    <td>33</td>
+                                    <td>0.00066</td>
+                                    <td>151,515</td>
+                                </tr>
+                                <tr>
+                                    <td>Matyr Card</td>
+                                    <td>33</td>
+                                    <td>0.00066</td>
+                                    <td>151,515</td>
+                                </tr>
+                                <tr>
+                                    <td>Mummy Card</td>
+                                    <td>32</td>
+                                    <td>0.00064</td>
+                                    <td>156,250</td>
+                                </tr>
+                                <tr>
+                                    <td>Verit Cards</td>
+                                    <td>32</td>
+                                    <td>0.00064</td>
+                                    <td>156,250</td>
+                                </tr>
+                                <tr>
+                                    <td>Ghoul Card</td>
+                                    <td>32</td>
+                                    <td>0.00064</td>
+                                    <td>156,250</td>
+                                </tr>
+                                <tr>
+                                    <td>Isis Card</td>
+                                    <td>32</td>
+                                    <td>0.00064</td>
+                                    <td>156,250</td>
+                                </tr>
+                                <tr>
+                                    <td>Minorous Card</td>
+                                    <td>32</td>
+                                    <td>0.00064</td>
+                                    <td>156,250</td>
+                                </tr>
+                                <tr>
+                                    <td>Argos Card</td>
+                                    <td>32</td>
+                                    <td>0.00064</td>
+                                    <td>156,250</td>
+                                </tr>
+                                <tr>
+                                    <td>Mantis Card</td>
+                                    <td>31</td>
+                                    <td>0.00062</td>
+                                    <td>161,290</td>
+                                </tr>
+                                <tr>
+                                    <td>Flora Card</td>
+                                    <td>30</td>
+                                    <td>0.00060</td>
+                                    <td>166,667</td>
+                                </tr>
+                                <tr>
+                                    <td>Argiope Card</td>
+                                    <td>30</td>
+                                    <td>0.00060</td>
+                                    <td>166,667</td>
+                                </tr>
+                                <tr>
+                                    <td>Mace-wielding Goblin Card</td>
+                                    <td>30</td>
+                                    <td>0.00060</td>
+                                    <td>166,667</td>
+                                </tr>
+                                <tr>
+                                    <td>Hammer-wielding Goblin Card</td>
+                                    <td>30</td>
+                                    <td>0.00060</td>
+                                    <td>166,667</td>
+                                </tr>
+                                <tr>
+                                    <td>Flail-wielding Goblin Card</td>
+                                    <td>30</td>
+                                    <td>0.00060</td>
+                                    <td>166,667</td>
+                                </tr>
+                                <tr>
+                                    <td>Axe-wielding Goblin Card</td>
+                                    <td>29</td>
+                                    <td>0.00058</td>
+                                    <td>172,414</td>
+                                </tr>
+                                <tr>
+                                    <td>Dagger-wielding Goblin Card</td>
+                                    <td>29</td>
+                                    <td>0.00058</td>
+                                    <td>172,414</td>
+                                </tr>
+                                <tr>
+                                    <td>Goblin Archer Card</td>
+                                    <td>29</td>
+                                    <td>0.00058</td>
+                                    <td>172,414</td>
+                                </tr>
+                                <tr>
+                                    <td>Goblin Steamrider Card</td>
+                                    <td>29</td>
+                                    <td>0.00058</td>
+                                    <td>172,414</td>
+                                </tr>
+                                <tr>
+                                    <td>Zerom Card</td>
+                                    <td>29</td>
+                                    <td>0.00058</td>
+                                    <td>172,414</td>
+                                </tr>
+                                <tr>
+                                    <td>Requiem Card</td>
+                                    <td>28</td>
+                                    <td>0.00056</td>
+                                    <td>178,571</td>
+                                </tr>
+                                <tr>
+                                    <td>Marduk Card</td>
+                                    <td>28</td>
+                                    <td>0.00056</td>
+                                    <td>178,571</td>
+                                </tr>
+                                <tr>
+                                    <td>Pasana Card</td>
+                                    <td>28</td>
+                                    <td>0.00056</td>
+                                    <td>178,571</td>
+                                </tr>
+                                <tr>
+                                    <td>Orc Zombie Card</td>
+                                    <td>28</td>
+                                    <td>0.00056</td>
+                                    <td>178,571</td>
+                                </tr>
+                                <tr>
+                                    <td>Orc Warrior Card</td>
+                                    <td>27</td>
+                                    <td>0.00054</td>
+                                    <td>185,185</td>
+                                </tr>
+                                <tr>
+                                    <td>Orc Skeleton Card</td>
+                                    <td>27</td>
+                                    <td>0.00054</td>
+                                    <td>185,185</td>
+                                </tr>
+                                <tr>
+                                    <td>Orc Lady Card</td>
+                                    <td>27</td>
+                                    <td>0.00054</td>
+                                    <td>185,185</td>
+                                </tr>
+                                <tr>
+                                    <td>Zenorc Card</td>
+                                    <td>26</td>
+                                    <td>0.00052</td>
+                                    <td>192,308</td>
+                                </tr>
+                                <tr>
+                                    <td>Hunter Fly Card</td>
+                                    <td>26</td>
+                                    <td>0.00052</td>
+                                    <td>192,308</td>
+                                </tr>
+                                <tr>
+                                    <td>Orc Archer Card</td>
+                                    <td>26</td>
+                                    <td>0.00052</td>
+                                    <td>192,308</td>
+                                </tr>
+                                <tr>
+                                    <td>High Orc Card</td>
+                                    <td>25</td>
+                                    <td>0.00050</td>
+                                    <td>200,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Mace-wielding Kobold Card</td>
+                                    <td>25</td>
+                                    <td>0.00050</td>
+                                    <td>200,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Hammer-wielding Kobold Card</td>
+                                    <td>25</td>
+                                    <td>0.00050</td>
+                                    <td>200,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Kobold Archer Card</td>
+                                    <td>25</td>
+                                    <td>0.00050</td>
+                                    <td>200,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Axe-wielding Kobold Card</td>
+                                    <td>24</td>
+                                    <td>0.00048</td>
+                                    <td>208,333</td>
+                                </tr>
+                                <tr>
+                                    <td>Jakk Card</td>
+                                    <td>24</td>
+                                    <td>0.00048</td>
+                                    <td>208,333</td>
+                                </tr>
+                                <tr>
+                                    <td>Marionette Card</td>
+                                    <td>23</td>
+                                    <td>0.00046</td>
+                                    <td>217,391</td>
+                                </tr>
+                                <tr>
+                                    <td>Deviruchi Card</td>
+                                    <td>23</td>
+                                    <td>0.00046</td>
+                                    <td>217,391</td>
+                                </tr>
+                                <tr>
+                                    <td>Nightmare Card</td>
+                                    <td>23</td>
+                                    <td>0.00046</td>
+                                    <td>217,391</td>
+                                </tr>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>23</td>
+                                    <td>0.00046</td>
+                                    <td>217,391</td>
+                                </tr>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>22</td>
+                                    <td>0.00044</td>
+                                    <td>227,273</td>
+                                </tr>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>22</td>
+                                    <td>0.00044</td>
+                                    <td>227,273</td>
+                                </tr>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>22</td>
+                                    <td>0.00044</td>
+                                    <td>227,273</td>
+                                </tr>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>21</td>
+                                    <td>0.00042</td>
+                                    <td>238,095</td>
+                                </tr>
+                                <tr>
+                                    <td>Ant Larva Card</td>
+                                    <td>21</td>
+                                    <td>0.00042</td>
+                                    <td>238,095</td>
+                                </tr>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>19</td>
+                                    <td>0.00038</td>
+                                    <td>263,158</td>
+                                </tr>
+                                <tr>
+                                    <td>Soldier Skeleton Card</td>
+                                    <td>18</td>
+                                    <td>0.00036</td>
+                                    <td>277,778</td>
+                                </tr>
+                                <tr>
+                                    <td>Dead Plankton Card</td>
+                                    <td>18</td>
+                                    <td>0.00036</td>
+                                    <td>277,778</td>
+                                </tr>
+                                <tr>
+                                    <td>Dagger-wielding Skel Pirate Card</td>
+                                    <td>17</td>
+                                    <td>0.00034</td>
+                                    <td>294,118</td>
+                                </tr>
+                                <tr>
+                                    <td>Rocker Card</td>
+                                    <td>17</td>
+                                    <td>0.00034</td>
+                                    <td>294,118</td>
+                                </tr>
+                                <tr>
+                                    <td>Sasquatch Card</td>
+                                    <td>17</td>
+                                    <td>0.00034</td>
+                                    <td>294,118</td>
+                                </tr>
+                                <tr>
+                                    <td>Bapho Jr. Card</td>
+                                    <td>17</td>
+                                    <td>0.00034</td>
+                                    <td>294,118</td>
+                                </tr>
+                                <tr>
+                                    <td>Picky (Shell) Card</td>
+                                    <td>16</td>
+                                    <td>0.00032</td>
+                                    <td>312,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Anubis Card</td>
+                                    <td>16</td>
+                                    <td>0.00032</td>
+                                    <td>312,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Giant Whisper Card</td>
+                                    <td>16</td>
+                                    <td>0.00032</td>
+                                    <td>312,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Skeleton General Card</td>
+                                    <td>16</td>
+                                    <td>0.00032</td>
+                                    <td>312,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Orc Baby Card</td>
+                                    <td>16</td>
+                                    <td>0.00032</td>
+                                    <td>312,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Rotar Zairo Card</td>
+                                    <td>16</td>
+                                    <td>0.00032</td>
+                                    <td>312,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Wind Ghost Card</td>
+                                    <td>16</td>
+                                    <td>0.00032</td>
+                                    <td>312,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Wraith Card</td>
+                                    <td>16</td>
+                                    <td>0.00032</td>
+                                    <td>312,500</td>
+                                </tr>
+                                <tr>
+                                    <td>[Void] Orc Lord Card</td>
+                                    <td>15</td>
+                                    <td>0.00030</td>
+                                    <td>333,333</td>
+                                </tr>
+                                <tr>
+                                    <td>[Night] Orc Hero Card</td>
+                                    <td>15</td>
+                                    <td>0.00030</td>
+                                    <td>333,333</td>
+                                </tr>
+                                <tr>
+                                    <td>Sohee Card</td>
+                                    <td>15</td>
+                                    <td>0.00030</td>
+                                    <td>333,333</td>
+                                </tr>
+                                <tr>
+                                    <td>[Night] Orc Lord Card</td>
+                                    <td>14</td>
+                                    <td>0.00028</td>
+                                    <td>357,143</td>
+                                </tr>
+                                <tr>
+                                    <td>[Night] Orc Lord Card</td>
+                                    <td>14</td>
+                                    <td>0.00028</td>
+                                    <td>357,143</td>
+                                </tr>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>14</td>
+                                    <td>0.00028</td>
+                                    <td>357,143</td>
+                                </tr>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>14</td>
+                                    <td>0.00028</td>
+                                    <td>357,143</td>
+                                </tr>
+                                <tr>
+                                    <td>[Haze] Pharaoh Card</td>
+                                    <td>13</td>
+                                    <td>0.00026</td>
+                                    <td>384,615</td>
+                                </tr>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>13</td>
+                                    <td>0.00026</td>
+                                    <td>384,615</td>
+                                </tr>
+                                <tr>
+                                    <td>[Night] Orc Lord Card</td>
+                                    <td>12</td>
+                                    <td>0.00024</td>
+                                    <td>416,667</td>
+                                </tr>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>9</td>
+                                    <td>0.00018</td>
+                                    <td>555,556</td>
+                                </tr>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>8</td>
+                                    <td>0.00016</td>
+                                    <td>625,000</td>
+                                </tr>
+                                <tr>
+                                    <td>[Void] Orc Lord Card</td>
+                                    <td>8</td>
+                                    <td>0.00016</td>
+                                    <td>625,000</td>
+                                </tr>
+                                <tr>
+                                    <td>[Night] Phreeoni Card</td>
+                                    <td>8</td>
+                                    <td>0.00016</td>
+                                    <td>625,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>8</td>
+                                    <td>0.00016</td>
+                                    <td>625,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Poring Card</td>
+                                    <td>8</td>
+                                    <td>0.00016</td>
+                                    <td>625,000</td>
+                                </tr>
+                                <tr>
+                                    <td>[Night] Orc Lord Card</td>
+                                    <td>7</td>
+                                    <td>0.00014</td>
+                                    <td>714,286</td>
+                                </tr>
+                                <tr>
+                                    <td>[Haze] Pharaoh Card</td>
+                                    <td>6</td>
+                                    <td>0.00012</td>
+                                    <td>833,333</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
